@@ -18,7 +18,12 @@ a, li{
 
 }
 .container{
-
+    display: block;
+    max-width: 1180px;
+    text-align: center;
+    background: #fff;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 
@@ -55,7 +60,6 @@ nav{
 }
 
 nav ul{
-
 padding: 0;
 margin: 0;
 }
@@ -68,18 +72,22 @@ nav ul li{
 
 }
 nav ul li a{
-
+ padding-block: 0px 20px;
+ margin: 108px;
+ color: #000;
+ line-height: 6;
 }
 
 header nav ul li a:hover {
-    color: blue;
+    color: red;
 }
 
 /* end of header section */
 
 .hero_expanded{
+    background: url(img/hero.jpg)no-repeat top / cover;
     position: absolute;
-    height: 746px;
+    height: 557px;
     width: 100%;
     top: 183px;
 }
@@ -98,7 +106,7 @@ header nav ul li a:hover {
 #hero{
     position: relative;
     background: transparent;
-    height: 791px;
+    height: 600px;
 }
 #hero .site_name_tag{
     position: absolute;
@@ -155,17 +163,18 @@ header nav ul li a:hover {
 }
 
 .blank_module .left_container h6{
-
+  text-align: center;
+  font-size: 16px;
 }
 
 .blank_module .left_container p{
     position: relative;
+    margin: 0 auto;
     font-size: 15px;
     font-family: 'inter';
     font-weight: 300;
     font-style: normal;
     line-height: 22px;
-    text-align: center;
     width: 543px;
 
 }
@@ -232,7 +241,7 @@ header nav ul li a:hover {
 /* footer Section */
 footer {
     background: #575757;
-    min-height: 700px;
+    min-height: 800px;
     color: #fff;
 }
 
@@ -242,7 +251,7 @@ footer .container{
     padding: 30px;
 }
  .ftr-top h1{
-
+    position: absolute;
 }
 
 footer .ftr-top p{
